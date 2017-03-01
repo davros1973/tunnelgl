@@ -8,6 +8,8 @@
 			
 		<script src="vendor/three.js/Three.js"></script>
 		<script src="vendor/three.js/Detector.js"></script>
+		<!-- see details at http://paulirish.com/2011/requestanimationframe-for-smart-animating/ -->
+		<script src="vendor/three.js/RequestAnimationFrame.js"></script>
 		<!-- https://github.com/mrdoob/stats.js -->
 		<script src="vendor/three.js/Stats.js"></script>
 
@@ -23,11 +25,11 @@
     	<div id="container"></div>
 	<!-- info on screen display -->
 	<div id="info">
-		<a href="http://learningthreejs.com/" target="_blank">LearningThree.js</a>: 
-		Experimentation with tunnel effect
+		<!-- <a href="http://learningthreejs.com/" target="_blank">LearningThree.js</a>: -->
+		<!-- Experimentation with tunnel effect -->
 	</div> 
 	<div id="inlineDoc">
-		<span id="fullscreenDoc"><i>f</i> for fullscreen - </span><i>p</i> for screenshot
+		<!-- <span id="fullscreenDoc"><i>f</i> for fullscreen - </span><i>p</i> for screenshot -->
 	</div>
 
 	<script type="text/javascript">
@@ -57,7 +59,7 @@
 			stats = new Stats();
 			stats.domElement.style.position	= 'absolute';
 			stats.domElement.style.bottom	= '0px';
-			document.body.appendChild( stats.domElement );
+			//document.body.appendChild( stats.domElement );
 
 			// create a scene
 			scene = new THREE.Scene();

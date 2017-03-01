@@ -11,3 +11,30 @@ git clone https://github.com/jeromeetienne/threejsboilerplate.git
 ```
 
 And start updating ```index.html``` until it fits yours need.
+
+
+Fork by David Bayliss: changes 2017 Feb
+
+I'm using this fork in an iframe at:
+
+https://blog.xarta.co.uk/contact
+
+Had to make changes (see commit) ...
+
+Working in latest (at this time ... Feb 2017):
+* Chrome
+* Edge
+* Firefox
+* Chrome mobile (on Note 4)
+
+But not Internet Explorer 11.5
+
+There are still errors reported in Console.
+
+My entire webpage works fine on a (year) 2009 Core 2 Duo laptop (in Chrome!).
+The same laptop struggles with it in Edge.
+
+Needs work. (I'm only just restarting to relearn JavaScript let alone three.js or WebGL ... so it's all a "work in progress")
+
+
+
