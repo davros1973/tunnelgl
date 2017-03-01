@@ -3,9 +3,12 @@
 I'm using this fork in an iframe at:  https://blog.xarta.co.uk/contact
 
 Unfortunately I made the changes haphazardly / experimenting to make it work (rather blindly) and outside of source control.  I can see all the changes I made comparing the fork to the later changes, but can't remember why I made them.  I don't know why there is the different library versions r46 vs r47, as I reference the latest version on my contact page:
-<script src="https://ajax.googleapis.com/ajax/libs/threejs/r83/three.min.js"></script>
 
-I'll have to check sometime what library it's actually using in practice!
+ src="https://ajax.googleapis.com/ajax/libs/threejs/r83/three.min.js">
+ 
+(I couldn't get the link to show properly in markdown despite trying a few suggestions from stackoverflow ... also GitHub won't let me edit this doc anymore after a preview without refreshing the page / losing changes! Grrrr)
+
+I'll have to check sometime what library my implementation is actually using in practice.
 
 Also the index page referenced the DragPanControls.js file in the Vendor folder, but something else seemed to require it in the threex (extension) folder so I made a copy.
 
@@ -23,10 +26,10 @@ But not Internet Explorer 11.5
 
 There are still errors reported in Console.
 
-My entire webpage works fine on a (year) 2009 Core 2 Duo laptop (in Chrome!).
+My entire webpage "works" fine (from the POV of a casual observer) on a circa 2009 Core 2 Duo laptop (in Chrome!).
 The same laptop struggles with it in Edge.
 
-Needs work. (I'm only just restarting to relearn JavaScript let alone three.js or WebGL ... so it's all a "work in progress")
+Needs work. (I'm only just restarting to relearn JavaScript let alone three.js or WebGL ... so it's all a "work in progress")  Good fun though.
 
 
 # Original author's ReadMe
