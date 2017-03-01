@@ -8,6 +8,9 @@ Unfortunately I made the changes haphazardly / experimenting to make it work (ra
  
 (I couldn't get the link to show properly in markdown despite trying a few suggestions from stackoverflow ... also GitHub won't let me edit this doc anymore after a preview without refreshing the page / losing changes! Grrrr)
 
+
+**Update** oops ... r83 is for my page's other stuff ... this is running in an IFRAME (I'm an idiot!) ... so yeah - maybe changing the three.js version had a purpose but I forget why.  Will have to test sometime with different versions.
+
 I'll have to check sometime what library my implementation is actually using in practice.
 
 Also the index page referenced the DragPanControls.js file in the Vendor folder, but something else seemed to require it in the threex (extension) folder so I made a copy.
